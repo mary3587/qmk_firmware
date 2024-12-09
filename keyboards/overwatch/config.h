@@ -15,7 +15,7 @@
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include QMK_KEYBOARD_H
+
 
 
 // 디버그 메시지 활성화 (선택 사항)
