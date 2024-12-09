@@ -16,7 +16,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * │ 0 │ . │Ent│ + │
      * └───┴───┴───┴───┘
      */
-    [0] = layout_first(
+    [0] = LAYOUT_first(
         KC_M, KC_Q, KC_W, KC_E, KC_R, KC_P,
         KC_TAB, KC_A, KC_S, KC_D, KC_C, KC_H,
         KC_LEFT_SHIFT, KC_F,
