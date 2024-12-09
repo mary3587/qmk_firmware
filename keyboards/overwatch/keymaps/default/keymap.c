@@ -3,18 +3,6 @@
 
 #include QMK_KEYBOARD_H
 
-#define layout_first( \
-    k00, k01, k02, k03, k04, k05, \
-    k10, k11, k12, k13, k14, k15, \
-    k20, k21, \
-    k30 \
-) { \
-    { k00, k01, k02, k03, k04, k05 }, /* Row 0 / \
-    { k10, k11, k12, k13, k14, k15 }, / Row 1 / \
-    { k20, k21 }, / Row 2 / \
-    { k30 }  / Row 3 */ \
-}
-
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
